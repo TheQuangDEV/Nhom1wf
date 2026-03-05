@@ -107,6 +107,7 @@
             this.bthoadon.TabIndex = 0;
             this.bthoadon.Text = "Lập Hóa Đơn";
             this.bthoadon.UseVisualStyleBackColor = false;
+            this.bthoadon.Click += new System.EventHandler(this.bthoadon_Click);
             // 
             // panel4
             // 
@@ -177,7 +178,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "Các Chức Năng";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

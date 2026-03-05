@@ -20,3 +20,4 @@ D:\Baitaplonwf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.c
 D:\Baitaplonwf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.csproj.CoreCompileInputs.cache
 D:\Baitaplonwf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.exe
 D:\Baitaplonwf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.pdb
+D:\Baitaplonwf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.Form3.resources

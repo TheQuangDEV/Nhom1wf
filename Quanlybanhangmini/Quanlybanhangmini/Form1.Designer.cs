@@ -36,10 +36,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.btdangnhap = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.bttao = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -52,6 +54,7 @@
             this.tableLayoutPanel1.Controls.Add(this.tbtk, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.tbmk, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.panel1, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 2);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(149, 91);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
@@ -110,7 +113,6 @@
             this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.btdangnhap);
-            this.panel1.Controls.Add(this.bttao);
             this.panel1.Location = new System.Drawing.Point(162, 130);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(289, 119);
@@ -143,6 +145,19 @@
             this.btdangnhap.UseVisualStyleBackColor = false;
             this.btdangnhap.Click += new System.EventHandler(this.btdangnhap_Click);
             // 
+            // bttao
+            // 
+            this.bttao.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.bttao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bttao.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttao.Location = new System.Drawing.Point(-3, 14);
+            this.bttao.Name = "bttao";
+            this.bttao.Size = new System.Drawing.Size(149, 37);
+            this.bttao.TabIndex = 6;
+            this.bttao.Text = "Thêm tài  khoản";
+            this.bttao.UseVisualStyleBackColor = false;
+            this.bttao.Click += new System.EventHandler(this.bttao_Click);
+            // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -154,18 +169,13 @@
             this.label3.Text = "Quản Lý Bán Hàng Mini";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // bttao
+            // panel2
             // 
-            this.bttao.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.bttao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bttao.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bttao.Location = new System.Drawing.Point(67, 57);
-            this.bttao.Name = "bttao";
-            this.bttao.Size = new System.Drawing.Size(121, 37);
-            this.bttao.TabIndex = 6;
-            this.bttao.Text = "Thêm tài  khoản";
-            this.bttao.UseVisualStyleBackColor = false;
-            this.bttao.Click += new System.EventHandler(this.bttao_Click);
+            this.panel2.Controls.Add(this.bttao);
+            this.panel2.Location = new System.Drawing.Point(3, 130);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(153, 119);
+            this.panel2.TabIndex = 6;
             // 
             // Form1
             // 
@@ -181,6 +191,7 @@
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -197,6 +208,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button bttao;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 
