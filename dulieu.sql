@@ -1,1 +1,53 @@
-select *from dangnhap
+﻿select *from dangnhap
+
+
+CREATE TABLE KhachHang
+(
+    MaKhachHang INT IDENTITY(1,1) PRIMARY KEY,
+    TenKhachHang NVARCHAR(100),
+    DienThoai NVARCHAR(15),
+    DiaChi NVARCHAR(200)
+);
+
+
+CREATE TABLE SanPham
+(
+    MaSanPham INT IDENTITY(1,1) PRIMARY KEY,
+    TenSanPham NVARCHAR(100),
+    DonGia FLOAT
+);
+
+
+CREATE TABLE HoaDon
+(
+    MaHoaDon INT IDENTITY(1,1) PRIMARY KEY,
+    MaKhachHang INT,
+    NgayLap DATE,
+    TongTien FLOAT,
+
+    FOREIGN KEY (MaKhachHang) REFERENCES KhachHang(MaKhachHang)
+);
+
+
+CREATE TABLE ChiTietHoaDon
+(
+    MaChiTiet INT IDENTITY(1,1) PRIMARY KEY,
+    MaHoaDon INT,
+    MaSanPham INT,
+    SoLuong INT,
+    DonGia FLOAT,
+    ThanhTien FLOAT,
+
+    FOREIGN KEY (MaHoaDon) REFERENCES HoaDon(MaHoaDon),
+    FOREIGN KEY (MaSanPham) REFERENCES SanPham(MaSanPham)
+);
+
+INSERT INTO SanPham (TenSanPham, DonGia)
+VALUES 
+(N'Táo', 20000),
+(N'Cam', 15000),
+(N'Chuối', 10000),
+(N'Dưa hấu', 30000);
+
+
+select * from SanPham
