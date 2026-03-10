@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|c:\\users\\window\\source\\repos\\nhom1wf\\quanlybanhangmini\\quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmQuanLySanPham.cs",
+              "DocumentMoniker": "C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\frmQuanLySanPham.cs",
+              "ToolTip": "C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs",
+              "RelativeToolTip": "Quanlybanhangmini\\frmQuanLySanPham.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAAwP8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:22:16.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmQuanLySanPham.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\frmQuanLySanPham.cs",
+              "ToolTip": "C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs [Design]",
+              "RelativeToolTip": "Quanlybanhangmini\\frmQuanLySanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T16:56:28.472Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

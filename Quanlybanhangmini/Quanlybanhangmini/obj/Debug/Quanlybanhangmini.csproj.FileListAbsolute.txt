@@ -21,3 +21,17 @@ D:\Baitaplonwf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.c
 D:\Baitaplonwf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.exe
 D:\Baitaplonwf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.pdb
 D:\Baitaplonwf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.Form3.resources
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\bin\Debug\Quanlybanhangmini.exe.config
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\bin\Debug\Quanlybanhangmini.exe
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\bin\Debug\Quanlybanhangmini.pdb
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.csproj.AssemblyReference.cache
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.exe.config
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.Form1.resources
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.Form2.resources
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.Form3.resources
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.frmQuanLySanPham.resources
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.Properties.Resources.resources
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.csproj.GenerateResource.cache
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.csproj.CoreCompileInputs.cache
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.exe
+C:\Users\WINDOW\Source\Repos\Nhom1wf\Quanlybanhangmini\Quanlybanhangmini\obj\Debug\Quanlybanhangmini.pdb

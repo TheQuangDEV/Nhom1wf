@@ -179,6 +179,8 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form2";
             this.Text = "Các Chức Năng";
+            this.btsappham.UseVisualStyleBackColor = false;
+            this.btsappham.Click += new System.EventHandler(this.btsappham_Click);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

@@ -1,0 +1,16 @@
+CREATE DATABASE QLBHMN;
+GO
+CREATE TABLE dangnhap
+(
+    tk NVARCHAR(50) PRIMARY KEY,
+    mk NVARCHAR(50) NOT NULL
+);
+GO
+
+INSERT INTO dangnhap (tk, mk)
+VALUES (N'lanh', N'123456');
+GO
+
+USE QLBHMN;
+GO
+SELECT * FROM dangnhap;

@@ -1,4 +1,4 @@
-﻿select *from dangnhap
+﻿-- select * from dangnhap
 
 
 CREATE TABLE KhachHang
