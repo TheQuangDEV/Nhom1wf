@@ -178,6 +178,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Các Chức Năng";
             this.btsappham.UseVisualStyleBackColor = false;
             this.btsappham.Click += new System.EventHandler(this.btsappham_Click);
