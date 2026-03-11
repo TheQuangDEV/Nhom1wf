@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "D:\\Baitaplonwf\\Quanlybanhangmini\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|D:\\Baitaplonwf\\Quanlybanhangmini\\quanlybanhangmini\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|d:\\baitaplonwf\\quanlybanhangmini\\quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|D:\\Baitaplonwf\\Quanlybanhangmini\\quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|D:\\Baitaplonwf\\Quanlybanhangmini\\quanlybanhangmini\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,8 +11,20 @@
       "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|D:\\Baitaplonwf\\Quanlybanhangmini\\quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|D:\\Baitaplonwf\\Quanlybanhangmini\\quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|D:\\Baitaplonwf\\Quanlybanhangmini\\quanlybanhangmini\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|d:\\baitaplonwf\\quanlybanhangmini\\quanlybanhangmini\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|D:\\Baitaplonwf\\Quanlybanhangmini\\quanlybanhangmini\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,17 +46,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Form3.cs",
               "DocumentMoniker": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form3.cs",
               "RelativeDocumentMoniker": "Quanlybanhangmini\\Form3.cs",
               "ToolTip": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form3.cs",
               "RelativeToolTip": "Quanlybanhangmini\\Form3.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEIAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAqwLMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T13:00:36.412Z",
               "IsPinned": true,
@@ -64,19 +64,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs",
               "RelativeDocumentMoniker": "Quanlybanhangmini\\Form2.cs",
-              "ToolTip": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs [Design]",
-              "RelativeToolTip": "Quanlybanhangmini\\Form2.cs [Design]",
+              "ToolTip": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs [Design]*",
+              "RelativeToolTip": "Quanlybanhangmini\\Form2.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-28T02:12:57.213Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form1.cs",
               "RelativeDocumentMoniker": "Quanlybanhangmini\\Form1.cs",
@@ -89,19 +89,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs",
-              "RelativeDocumentMoniker": "Quanlybanhangmini\\Form2.cs",
-              "ToolTip": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs",
-              "RelativeToolTip": "Quanlybanhangmini\\Form2.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T02:33:14.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form1.cs",
               "RelativeDocumentMoniker": "Quanlybanhangmini\\Form1.cs",
@@ -114,7 +101,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\Form2.cs",
+              "ToolTip": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs*",
+              "RelativeToolTip": "Quanlybanhangmini\\Form2.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T02:33:14.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form3.cs",
               "RelativeDocumentMoniker": "Quanlybanhangmini\\Form3.cs",
@@ -143,8 +143,8 @@
               "Title": "Form2.Designer.cs",
               "DocumentMoniker": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.Designer.cs",
               "RelativeDocumentMoniker": "Quanlybanhangmini\\Form2.Designer.cs",
-              "ToolTip": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.Designer.cs",
-              "RelativeToolTip": "Quanlybanhangmini\\Form2.Designer.cs",
+              "ToolTip": "D:\\Baitaplonwf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.Designer.cs*",
+              "RelativeToolTip": "Quanlybanhangmini\\Form2.Designer.cs*",
               "ViewState": "AgIAAGIAAAAAAAAAAAAqwGwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-03T01:17:58.816Z",

@@ -15,7 +15,9 @@ namespace Quanlybanhangmini
    
     public partial class Form3 : Form
     {
+        
         SqlConnection conn = new SqlConnection(@"Data Source = localhost; Initial Catalog = QLBHMN; Integrated Security = True;");
+        SqlCommand cmd = new SqlCommand();
         public Form3()
         {
             InitializeComponent();
@@ -131,6 +133,58 @@ namespace Quanlybanhangmini
             if (rs == DialogResult.Yes)
             {
                 dgvChiTiet.Rows.Remove(dgvChiTiet.CurrentRow);
+            }
+        }
+
+        private void btnthanhtoan_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dgvChiTiet.Rows.Count == 0)
+                {
+                    MessageBox.Show("Chưa có sản phẩm trong hóa đơn");
+                    return;
+                }
+
+                if (conn.State == ConnectionState.Closed)
+                {
+                    conn.Open();
+                }
+
+                int tongtien = 0;
+
+                // tính tổng tiền
+                foreach (DataGridViewRow row in dgvChiTiet.Rows)
+                {
+                    tongtien += Convert.ToInt32(row.Cells["thanhtien"].Value);
+                }
+
+                string sql = "insert into hoadon(mahd,tenkh,ngaylap,tongtien) values(@mahd,@tenkh,@ngaylap,@tongtien)";
+                cmd = new SqlCommand(sql, conn);
+
+                cmd.Parameters.AddWithValue("@mahd", tbmahoadon.Text);
+                cmd.Parameters.AddWithValue("@tenkh", tbtenkhachhang.Text);
+                cmd.Parameters.AddWithValue("@ngaylap", dtpngaylap.Value);
+                cmd.Parameters.AddWithValue("@tongtien", tongtien);
+
+                int kq = cmd.ExecuteNonQuery();
+
+                if (kq > 0)
+                {
+                    MessageBox.Show("Thanh toán thành công");
+
+                    dgvChiTiet.Rows.Clear();
+                    tbtenkhachhang.Clear();
+                    tbmahoadon.Clear();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi thanh toán: " + ex.Message);
+            }
+            finally
+            {
+                conn.Close();
             }
         }
     }

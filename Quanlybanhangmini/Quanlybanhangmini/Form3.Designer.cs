@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tbmahoadon = new System.Windows.Forms.TextBox();
             this.tbtenkhachhang = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dtpngaylap = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btthemvaogio = new System.Windows.Forms.Button();
             this.tbdongia = new System.Windows.Forms.TextBox();
@@ -46,7 +45,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dgvChiTiet = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnthanhtoan = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -96,12 +95,12 @@
             this.tbtenkhachhang.Size = new System.Drawing.Size(507, 22);
             this.tbtenkhachhang.TabIndex = 4;
             // 
-            // dateTimePicker1
+            // dtpngaylap
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(446, 29);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(220, 22);
-            this.dateTimePicker1.TabIndex = 5;
+            this.dtpngaylap.Location = new System.Drawing.Point(446, 29);
+            this.dtpngaylap.Name = "dtpngaylap";
+            this.dtpngaylap.Size = new System.Drawing.Size(220, 22);
+            this.dtpngaylap.TabIndex = 5;
             // 
             // groupBox1
             // 
@@ -200,14 +199,6 @@
             // dgvChiTiet
             // 
             this.dgvChiTiet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvChiTiet.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvChiTiet.Location = new System.Drawing.Point(6, 29);
             this.dgvChiTiet.Name = "dgvChiTiet";
             this.dgvChiTiet.RowHeadersWidth = 51;
@@ -225,17 +216,18 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnthanhtoan
             // 
-            this.button3.BackColor = System.Drawing.Color.Lime;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(233, 416);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(196, 42);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Thanh toán ";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnthanhtoan.BackColor = System.Drawing.Color.Lime;
+            this.btnthanhtoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnthanhtoan.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnthanhtoan.Location = new System.Drawing.Point(233, 416);
+            this.btnthanhtoan.Name = "btnthanhtoan";
+            this.btnthanhtoan.Size = new System.Drawing.Size(196, 42);
+            this.btnthanhtoan.TabIndex = 9;
+            this.btnthanhtoan.Text = "Thanh toán ";
+            this.btnthanhtoan.UseVisualStyleBackColor = false;
+            this.btnthanhtoan.Click += new System.EventHandler(this.btnthanhtoan_Click);
             // 
             // button4
             // 
@@ -256,17 +248,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 470);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnthanhtoan);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dtpngaylap);
             this.Controls.Add(this.tbtenkhachhang);
             this.Controls.Add(this.tbmahoadon);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lập hóa đơn";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.groupBox1.ResumeLayout(false);
@@ -285,7 +278,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox tbmahoadon;
         private System.Windows.Forms.TextBox tbtenkhachhang;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dtpngaylap;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -297,7 +290,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.DataGridView dgvChiTiet;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnthanhtoan;
         private System.Windows.Forms.Button button4;
     }
 }
