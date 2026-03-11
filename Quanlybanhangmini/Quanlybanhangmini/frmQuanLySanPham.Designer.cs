@@ -49,10 +49,10 @@
             this.txtTenSP = new System.Windows.Forms.TextBox();
             this.lblTenSP = new System.Windows.Forms.Label();
             this.cboLoaiHang = new System.Windows.Forms.ComboBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.lblTextTongMatHang = new System.Windows.Forms.Label();
             this.lblTongMatHang = new System.Windows.Forms.Label();
+            this.lblTextTongMatHang = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.tableMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSanPham)).BeginInit();
             this.tableButton.SuspendLayout();
@@ -331,7 +331,6 @@
             this.txtTenSP.Name = "txtTenSP";
             this.txtTenSP.Size = new System.Drawing.Size(284, 23);
             this.txtTenSP.TabIndex = 5;
-            this.txtTenSP.Leave += new System.EventHandler(this.txtTenSP_Leave);
             // 
             // lblTenSP
             // 
@@ -371,20 +370,6 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(976, 44);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
-            // lblTextTongMatHang
-            // 
-            this.lblTextTongMatHang.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTextTongMatHang.AutoSize = true;
-            this.lblTextTongMatHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTextTongMatHang.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblTextTongMatHang.Location = new System.Drawing.Point(33, 0);
-            this.lblTextTongMatHang.Name = "lblTextTongMatHang";
-            this.lblTextTongMatHang.Size = new System.Drawing.Size(164, 44);
-            this.lblTextTongMatHang.TabIndex = 6;
-            this.lblTextTongMatHang.Text = "Tổng mặt hàng:";
-            this.lblTextTongMatHang.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // lblTongMatHang
             // 
             this.lblTongMatHang.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -398,6 +383,20 @@
             this.lblTongMatHang.TabIndex = 7;
             this.lblTongMatHang.Text = "0";
             this.lblTongMatHang.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // lblTextTongMatHang
+            // 
+            this.lblTextTongMatHang.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTextTongMatHang.AutoSize = true;
+            this.lblTextTongMatHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTextTongMatHang.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblTextTongMatHang.Location = new System.Drawing.Point(33, 0);
+            this.lblTextTongMatHang.Name = "lblTextTongMatHang";
+            this.lblTextTongMatHang.Size = new System.Drawing.Size(164, 44);
+            this.lblTextTongMatHang.TabIndex = 6;
+            this.lblTextTongMatHang.Text = "Tổng mặt hàng:";
+            this.lblTextTongMatHang.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // frmQuanLySanPham
             // 

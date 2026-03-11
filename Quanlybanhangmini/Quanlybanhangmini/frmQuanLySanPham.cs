@@ -323,11 +323,7 @@ namespace Quanlybanhangmini
 
         private void txtTenSP_Leave(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtTenSP.Text))
-            {
-                MessageBox.Show("Tên sản phẩm không được để trống!");
-                txtTenSP.Focus();
-            }
+
         }
         private bool SanPhamDaCoTrongHoaDon(int maSanPham)
         {
