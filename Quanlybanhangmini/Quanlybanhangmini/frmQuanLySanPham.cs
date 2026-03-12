@@ -7,7 +7,7 @@ namespace Quanlybanhangmini
 {
     public partial class frmQuanLySanPham : Form
     {
-        string connStr = @"Data Source=localhost;Initial Catalog=QLBHMN;Integrated Security=True;";
+        string connStr = @"Data Source=LAPTOP-OFAAGIK4\SQLEXPRESS;Initial Catalog=QLBHMN;Integrated Security=True;";
 
         public frmQuanLySanPham()
         {

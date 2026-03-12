@@ -86,6 +86,7 @@
             this.btsappham.TabIndex = 0;
             this.btsappham.Text = "Quản Lý Sản Phẩm ";
             this.btsappham.UseVisualStyleBackColor = false;
+            this.btsappham.Click += new System.EventHandler(this.btsappham_Click);
             // 
             // panel3
             // 
@@ -150,6 +151,7 @@
             this.btnhanvien.TabIndex = 0;
             this.btnhanvien.Text = "Quản Lý Nhân Viên";
             this.btnhanvien.UseVisualStyleBackColor = false;
+            this.btnhanvien.Click += new System.EventHandler(this.btnhanvien_Click);
             // 
             // panel1
             // 
@@ -180,8 +182,6 @@
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Các Chức Năng";
-            this.btsappham.UseVisualStyleBackColor = false;
-            this.btsappham.Click += new System.EventHandler(this.btsappham_Click);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

@@ -22,5 +22,13 @@ namespace Quanlybanhangmini
             f.ShowDialog();
         }
 
+        private void btnhanvien_Click(object sender, EventArgs e)
+        {
+            // 1. Khởi tạo Form Quản lý nhân viên của bạn
+            frmQuanLyNhanVien frmNV = new frmQuanLyNhanVien();
+
+            // 2. Hiển thị Form đó lên màn hình
+            frmNV.ShowDialog();
+        }
     }
 }

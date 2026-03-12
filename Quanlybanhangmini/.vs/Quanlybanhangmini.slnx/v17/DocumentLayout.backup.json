@@ -1,14 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\",
+  "WorkspaceRootPath": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|c:\\users\\window\\source\\repos\\nhom1wf\\quanlybanhangmini\\quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|d:\\deadline_task\\nhom1wf\\quanlybanhangmini\\quanlybanhangmini\\qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|d:\\deadline_task\\nhom1wf\\quanlybanhangmini\\quanlybanhangmini\\qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|d:\\deadline_task\\nhom1wf\\quanlybanhangmini\\quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|d:\\deadline_task\\nhom1wf\\quanlybanhangmini\\quanlybanhangmini\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|d:\\deadline_task\\nhom1wf\\quanlybanhangmini\\quanlybanhangmini\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\frmquanlysanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|d:\\deadline_task\\nhom1wf\\quanlybanhangmini\\quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|d:\\deadline_task\\nhom1wf\\quanlybanhangmini\\quanlybanhangmini\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\quanlybanhangmini\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A547BDC-BF96-40AB-A046-4396C6978350}|Quanlybanhangmini\\Quanlybanhangmini.csproj|solutionrelative:quanlybanhangmini\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +50,131 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form3.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\Form3.cs",
+              "ToolTip": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form3.cs [Design]",
+              "RelativeToolTip": "Quanlybanhangmini\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:49:57.222Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\Form2.cs",
+              "ToolTip": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs",
+              "RelativeToolTip": "Quanlybanhangmini\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:43:22.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form1.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\Form1.cs",
+              "ToolTip": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form1.cs",
+              "RelativeToolTip": "Quanlybanhangmini\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvw8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:12:07.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "qlnhanvien.cs [Design]",
+              "DocumentMoniker": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\qlnhanvien.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\qlnhanvien.cs",
+              "ToolTip": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\qlnhanvien.cs [Design]",
+              "RelativeToolTip": "Quanlybanhangmini\\qlnhanvien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:05:06.282Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmQuanLySanPham.cs",
-              "DocumentMoniker": "C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs",
+              "Title": "qlnhanvien.cs",
+              "DocumentMoniker": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\qlnhanvien.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\qlnhanvien.cs",
+              "ToolTip": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\qlnhanvien.cs",
+              "RelativeToolTip": "Quanlybanhangmini\\qlnhanvien.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAUwB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T05:14:31.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmQuanLySanPham.cs [Design]",
+              "DocumentMoniker": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs",
               "RelativeDocumentMoniker": "Quanlybanhangmini\\frmQuanLySanPham.cs",
-              "ToolTip": "C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs",
+              "ToolTip": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs [Design]",
+              "RelativeToolTip": "Quanlybanhangmini\\frmQuanLySanPham.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T16:56:28.472Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmQuanLySanPham.cs",
+              "DocumentMoniker": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\frmQuanLySanPham.cs",
+              "ToolTip": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs",
               "RelativeToolTip": "Quanlybanhangmini\\frmQuanLySanPham.cs",
-              "ViewState": "AgIAADMBAAAAAAAAAAAqwEYBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T17:22:16.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmQuanLySanPham.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs",
-              "RelativeDocumentMoniker": "Quanlybanhangmini\\frmQuanLySanPham.cs",
-              "ToolTip": "C:\\Users\\WINDOW\\source\\repos\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\frmQuanLySanPham.cs [Design]",
-              "RelativeToolTip": "Quanlybanhangmini\\frmQuanLySanPham.cs [Design]",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form1.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\Form1.cs",
+              "ToolTip": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form1.cs [Design]",
+              "RelativeToolTip": "Quanlybanhangmini\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T16:56:28.472Z",
+              "WhenOpened": "2026-03-12T07:48:20.617Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form3.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\Form3.cs",
+              "ToolTip": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form3.cs",
+              "RelativeToolTip": "Quanlybanhangmini\\Form3.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T07:50:05.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs",
+              "RelativeDocumentMoniker": "Quanlybanhangmini\\Form2.cs",
+              "ToolTip": "D:\\Deadline_task\\Nhom1wf\\Quanlybanhangmini\\Quanlybanhangmini\\Form2.cs [Design]",
+              "RelativeToolTip": "Quanlybanhangmini\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T04:55:24.326Z",
               "EditorCaption": " [Design]"
             }
           ]
