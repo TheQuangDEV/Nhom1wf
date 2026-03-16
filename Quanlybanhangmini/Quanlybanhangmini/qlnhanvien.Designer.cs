@@ -63,6 +63,7 @@ namespace Quanlybanhangmini
             this.label8 = new System.Windows.Forms.Label();
             this.cboTrangThai = new System.Windows.Forms.ComboBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnLamMoi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvNhanVien)).BeginInit();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -351,10 +352,11 @@ namespace Quanlybanhangmini
             this.flowLayoutPanel2.Controls.Add(this.btnThem);
             this.flowLayoutPanel2.Controls.Add(this.btnSua);
             this.flowLayoutPanel2.Controls.Add(this.btnXoa);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(485, 164);
+            this.flowLayoutPanel2.Controls.Add(this.btnLamMoi);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(381, 164);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(302, 43);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(406, 43);
             this.flowLayoutPanel2.TabIndex = 13;
             // 
             // btnThem
@@ -461,6 +463,17 @@ namespace Quanlybanhangmini
             this.panel1.Size = new System.Drawing.Size(800, 208);
             this.panel1.TabIndex = 19;
             // 
+            // btnLamMoi
+            // 
+            this.btnLamMoi.BackColor = System.Drawing.Color.Aqua;
+            this.btnLamMoi.Location = new System.Drawing.Point(303, 3);
+            this.btnLamMoi.Name = "btnLamMoi";
+            this.btnLamMoi.Size = new System.Drawing.Size(100, 40);
+            this.btnLamMoi.TabIndex = 3;
+            this.btnLamMoi.Text = "Làm mới";
+            this.btnLamMoi.UseVisualStyleBackColor = false;
+            this.btnLamMoi.Click += new System.EventHandler(this.btnLamMoi_Click);
+            // 
             // frmQuanLyNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -531,5 +544,6 @@ namespace Quanlybanhangmini
         private DataGridViewTextBoxColumn Chucvu;
         private DataGridViewTextBoxColumn TrangThai;
         private Panel panel1;
+        private Button btnLamMoi;
     }
 }

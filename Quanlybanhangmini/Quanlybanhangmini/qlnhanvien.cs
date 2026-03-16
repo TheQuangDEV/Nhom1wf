@@ -65,28 +65,45 @@ namespace Quanlybanhangmini
 
         private void dgvNhanVien_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            // Kiểm tra xem người dùng có click vào một dòng hợp lệ không (tránh click vào tiêu đề cột)
+            // Kiểm tra xem người dùng có click vào một dòng hợp lệ không
             if (e.RowIndex >= 0)
             {
-                // Lấy ra cái dòng đang được click
                 DataGridViewRow row = dgvNhanVien.Rows[e.RowIndex];
 
-                // Đổ dữ liệu từ các cột của dòng đó lên giao diện
-                // Lưu ý: Tên trong ngoặc kép ["..."] phải gõ đúng tên cột trong CSDL SQL Server của bạn
-                txtTenNhanVien.Text = row.Cells["TenNhanVien"].Value.ToString();
-                dtpNgaySinh.Value = Convert.ToDateTime(row.Cells["NgaySinh"].Value);
-                cboDiaChi.Text = row.Cells["DiaChi"].Value.ToString();
+                // Dùng dấu ? để tránh lỗi nếu dữ liệu trống (DBNull)
+                txtTenNhanVien.Text = row.Cells["TenNhanVien"].Value?.ToString();
 
-                // Xử lý Giới tính cho RadioButton
-                if (row.Cells["GioiTinh"].Value.ToString() == "Nam")
-                    rdoNam.Checked = true;
+                // XỬ LÝ RIÊNG CHO NGÀY SINH ĐỂ CHỐNG LỖI
+                if (row.Cells["NgaySinh"].Value != DBNull.Value && row.Cells["NgaySinh"].Value != null)
+                {
+                    // Nếu có ngày sinh trong CSDL thì gán vào
+                    dtpNgaySinh.Value = Convert.ToDateTime(row.Cells["NgaySinh"].Value);
+                }
                 else
-                    rdoNu.Checked = true;
+                {
+                    // Nếu CSDL đang trống, tự động gán ngày hôm nay
+                    dtpNgaySinh.Value = DateTime.Now;
+                }
 
-                txtTaiKhoan.Text = row.Cells["TaiKhoan"].Value.ToString();
-                txtMatKhau.Text = row.Cells["MatKhau"].Value.ToString();
-                cboChucVu.Text = row.Cells["ChucVu"].Value.ToString();
-                cboTrangThai.Text = row.Cells["TrangThai"].Value.ToString();
+                cboDiaChi.Text = row.Cells["DiaChi"].Value?.ToString();
+
+                // Xử lý Giới tính an toàn hơn
+                string gioiTinh = row.Cells["GioiTinh"].Value?.ToString();
+                if (gioiTinh == "Nam")
+                    rdoNam.Checked = true;
+                else if (gioiTinh == "Nữ")
+                    rdoNu.Checked = true;
+                else
+                {
+                    rdoNam.Checked = false;
+                    rdoNu.Checked = false;
+                } // Bỏ chọn nếu chưa có giới tính
+
+                txtTaiKhoan.Text = row.Cells["TaiKhoan"].Value?.ToString();
+                txtMatKhau.Text = row.Cells["MatKhau"].Value?.ToString();
+                cboChucVu.Text = row.Cells["ChucVu"].Value?.ToString();
+                cboTrangThai.Text = row.Cells["TrangThai"].Value?.ToString();
+                txtTaiKhoan.Enabled = false;
             }
         }
 
@@ -170,6 +187,8 @@ namespace Quanlybanhangmini
 
             // Đặt mặc định giới tính chọn Nam
             rdoNam.Checked = true;
+            // Mở khóa lại để nhập tài khoản nhân viên mới
+            txtTaiKhoan.Enabled = true;
         }
 
         private void btnSua_Click(object sender, EventArgs e)
@@ -273,7 +292,11 @@ namespace Quanlybanhangmini
             }
         }
 
-        
+        private void btnLamMoi_Click(object sender, EventArgs e)
+        {
+            ResetThongTin();
+            txtTaiKhoan.Focus();
+        }
     }
     public class NhanVien
     {

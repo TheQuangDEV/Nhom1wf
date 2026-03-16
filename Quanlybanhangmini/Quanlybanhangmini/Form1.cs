@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Data.SqlTypes;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -43,8 +44,8 @@ namespace Quanlybanhangmini
                     cnn.Open();
 
                 }
-                string sql = "select * from dangnhap where tk= @tk and mk = @mk ";
-                cmd = new SqlCommand(sql, cnn);
+                string sqlQuery = "SELECT * FROM NhanVien WHERE TaiKhoan = @tk AND MatKhau = @mk";
+                cmd = new SqlCommand(sqlQuery, cnn);
                 cmd.Parameters.AddWithValue("@tk", tbtk.Text);
                 cmd.Parameters.AddWithValue("@mk", tbmk.Text);
                 adt = new SqlDataAdapter(cmd);
@@ -88,8 +89,8 @@ namespace Quanlybanhangmini
                 {
                     cnn.Open();
                 }
-                string sql = "insert into dangnhap (tk,mk) values (@tk,@mk)";
-                cmd = new SqlCommand(sql, cnn);
+                string sqlQuery = "INSERT INTO NhanVien (TaiKhoan, MatKhau) VALUES (@tk, @mk)";
+                cmd = new SqlCommand(sqlQuery, cnn);
                 cmd.Parameters.AddWithValue("@tk", tbtk.Text);
                 cmd.Parameters.AddWithValue("@mk", tbmk.Text);
                 int kq = cmd.ExecuteNonQuery();

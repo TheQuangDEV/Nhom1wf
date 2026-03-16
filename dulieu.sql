@@ -49,10 +49,6 @@ VALUES
 (N'Chuối', 10000),
 (N'Dưa hấu', 30000);
 
-
-<<<<<<< HEAD
-select * from SanPham
-=======
 select * from SanPham
 
 -- Tạo bảng Nhân Viên
@@ -76,4 +72,4 @@ VALUES
 
 -- Kiểm tra xem bảng đã có dữ liệu chưa
 SELECT * FROM NhanVien;
->>>>>>> theanh
+
