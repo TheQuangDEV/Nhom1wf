@@ -30,5 +30,11 @@ namespace Quanlybanhangmini
             // 2. Hiển thị Form đó lên màn hình
             frmNV.ShowDialog();
         }
+
+        private void btdoanhthu_Click(object sender, EventArgs e)
+        {
+           Form4 frmdt = new Form4();
+            frmdt.ShowDialog();
+        }
     }
 }

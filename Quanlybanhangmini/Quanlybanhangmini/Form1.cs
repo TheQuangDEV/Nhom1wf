@@ -14,7 +14,7 @@ namespace Quanlybanhangmini
 {
     public partial class Form1 : Form
     {
-        string sql = "Data Source=LAPTOP-OFAAGIK4\\SQLEXPRESS;Initial Catalog=QLBHMN;Integrated Security=True;";
+        string sql = "Data Source=localhost;Initial Catalog=QLBHMN;Integrated Security=True;";
         SqlConnection cnn;
         SqlDataAdapter adt = new SqlDataAdapter();
         SqlCommand cmd;

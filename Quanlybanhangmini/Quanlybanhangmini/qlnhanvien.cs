@@ -9,7 +9,7 @@ namespace Quanlybanhangmini
 
     public partial class frmQuanLyNhanVien : Form
     {
-        string strKetNoi = @"Data Source=LAPTOP-OFAAGIK4\SQLEXPRESS;Initial Catalog=QLBHMN;Integrated Security=True";
+        string strKetNoi = @"Data Source=localhost;Initial Catalog=QLBHMN;Integrated Security=True";
         private void LoadDuLieuTuSQL()
         {
             try
@@ -292,10 +292,16 @@ namespace Quanlybanhangmini
             }
         }
 
+<<<<<<< HEAD
         private void btnLamMoi_Click(object sender, EventArgs e)
         {
             ResetThongTin();
             txtTaiKhoan.Focus();
+=======
+        private void dgvNhanVien_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+>>>>>>> 35f2ac3 (thongkedoanhthu)
         }
     }
     public class NhanVien

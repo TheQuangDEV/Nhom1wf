@@ -72,4 +72,12 @@ VALUES
 
 -- Kiểm tra xem bảng đã có dữ liệu chưa
 SELECT * FROM NhanVien;
+<<<<<<< HEAD
 
+=======
+>>>>>>> theanh
+
+
+
+>>>>giap
+>>>>>>> 35f2ac3 (thongkedoanhthu)

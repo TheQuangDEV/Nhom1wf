@@ -16,7 +16,7 @@ namespace Quanlybanhangmini
     public partial class Form3 : Form
     {
         
-        SqlConnection conn = new SqlConnection(@"Data Source = LAPTOP-OFAAGIK4\SQLEXPRESS; Initial Catalog = QLBHMN; Integrated Security = True;");
+        SqlConnection conn = new SqlConnection(@"Data Source = localhost; Initial Catalog = QLBHMN; Integrated Security = True;");
         SqlCommand cmd = new SqlCommand();
         public Form3()
         {
@@ -186,6 +186,11 @@ namespace Quanlybanhangmini
             {
                 conn.Close();
             }
+        }
+
+        private void dgvChiTiet_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
